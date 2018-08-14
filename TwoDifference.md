@@ -16,3 +16,5 @@ Input: arr = [1,5,2,2,2,5,5,4] target = 3
 Output: (2,5) and (1,4)
 
 Solution: put each arr[i] for i in [0, len(arr)] in a hashMap and check if arr[i] +/- target exists in hashMap
+
+Runtime: O(n), O(n)
