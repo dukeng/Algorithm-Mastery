@@ -8,7 +8,7 @@ tags:
 - HashSet
 - HashMap
 - Array
-- SubArray
+- Subarray
 technics:
 - Running Sum
 ---
