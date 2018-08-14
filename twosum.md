@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Two Sum"
+title: "Find pair with given sum in an array"
 author: dukeng
 date: 2018-08-14 08:30:30
 tags:
