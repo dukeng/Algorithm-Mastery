@@ -16,3 +16,5 @@ Input: arr = [2, 7, 11, 15] target = 9
 Output: arr[0] + arr[1] = 2 + 7 = 9 -> [0,1]
 
 Solution: put each arr[i] for i in [0, len(arr)] in a hashMap and check if target - arr[i] exists in hashMap
+
+Runtime: O(n), O(n)
