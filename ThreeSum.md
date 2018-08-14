@@ -8,8 +8,9 @@ tags:
 - HashSet
 - HashMap
 - Array
+- SubSet
 technics:
-- Running Sum
+- Two Sum
 ---
 
 Input: arr = [ 2, 7, 4, 0, 9, 5, 1, 3 ], sum = 6
