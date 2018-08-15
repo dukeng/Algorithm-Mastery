@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Plus One"
+title: "Given Integer as an array, and plus one to it"
 author: poanchen
 date: 2018-08-14 08:30:30
 source: https://leetcode.com/problems/plus-one/description/
