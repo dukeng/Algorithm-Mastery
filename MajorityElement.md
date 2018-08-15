@@ -10,8 +10,8 @@ tags:
 - Sorting
 - Randomization
 - Divide and Conquer
-- Boyer-Moore Voting Algorithm
 technics:
+- Boyer-Moore Voting Algorithm
 ---
 
 Input: arr = [2,2,1,1,1,2,2]
