@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Maximum Subarray"
+title: "Largest Sum Contiguous Subarray"
 author: poanchen
 date: 2018-08-15 08:30:30
 source: https://leetcode.com/problems/maximum-subarray/description/
