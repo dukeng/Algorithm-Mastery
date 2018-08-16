@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Word Search"
+title: "Search the word in a 2D array"
 author: poanchen
 date: 2018-08-15 08:30:30
 source: https://leetcode.com/problems/word-search/description/
