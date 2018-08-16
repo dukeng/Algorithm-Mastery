@@ -8,9 +8,9 @@ tags:
 - Array
 - 2D Array
 - String
-- Backtracking
 technics:
 - DFS
+- Backtracking
 ---
 
 Input:
