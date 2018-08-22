@@ -5,11 +5,9 @@ author: poanchen
 date: 2018-08-16 08:30:30
 source: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
 tags:
-- Array
-- Binary Search
-- Sort of Sorted Array
+- Sorted
 technics:
-- FindMountainBottom
+- Binary Search
 ---
 
 Input: arr = [3,4,5,1,2]
