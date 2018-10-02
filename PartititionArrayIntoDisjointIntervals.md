@@ -9,6 +9,8 @@ tags:
 
 technics:
 - minmax
+
+difficulty: 2
 ---
 
 Input: arr = [5,0,3,8,6]
