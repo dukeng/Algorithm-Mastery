@@ -25,3 +25,18 @@ Loop from [0, len(arr)]
   Whenever the currentSum became negative number, we reset our currentSum to zero. // The rational behind this is that in order to find the max sum, we need to be greedy. Any sum that ends with negative number, we should reset this since there might be better sum after this.
 
 Runtime: O(n), O(1)
+
+Code:
+    def maxSubArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        currentSum = 0
+        maxSum = -sys.maxsize
+        for num in nums:
+            currentSum += num
+            maxSum = max(maxSum, currentSum)
+            if currentSum < 0:
+                currentSum = 0
+        return maxSum
