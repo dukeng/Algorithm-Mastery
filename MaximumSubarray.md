@@ -29,6 +29,7 @@ Loop from [0, len(arr)]
 Runtime: O(n), O(1)
 
 Code:
+```
     def maxSubArray(self, nums):
         """
         :type nums: List[int]
@@ -42,3 +43,4 @@ Code:
             if currentSum < 0:
                 currentSum = 0
         return maxSum
+```        
