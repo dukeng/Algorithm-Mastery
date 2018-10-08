@@ -1,16 +1,18 @@
 ---
 layout: post
-title: "Largest Sum Contiguous Subarray"
+title: "Max Sum Subarray"
 author: poanchen
 date: 2018-08-15 08:30:30
 source: https://leetcode.com/problems/maximum-subarray/description/
-tags:
+
+Topic:
 - Array
-- Greedy
-- Divide and Conquer
-- DP
+
+tags:
+- Subarray
 technics:
 - Kadane's algorithm
+- Divide and Conquer
 ---
 
 Input: [-2,1,-3,4,-1,2,1,-5,4]
