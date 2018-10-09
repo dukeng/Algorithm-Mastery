@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Container with most water"
+title: "SumOfSubarrayMinimum"
 author: dukeng
 date: 2018-08-14 08:30:30
-source: https://leetcode.com/problems/container-with-most-water/description/
+source: https://leetcode.com/problems/sum-of-subarray-minimums/description/
 tags:
 - Array
 - Greedy

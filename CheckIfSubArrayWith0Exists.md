@@ -9,8 +9,7 @@ tags:
 - HashMap
 - Array
 - Subarray
-technics:
-- Running Sum
+technics: Running Sum
 ---
 
 Input: arr = [1,2,4,6,3,-3,-6,6,-3]

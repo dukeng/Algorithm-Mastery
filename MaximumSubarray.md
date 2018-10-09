@@ -13,6 +13,7 @@ tags:
 technics:
 - Kadane's algorithm
 - Divide and Conquer
+- DP- 
 ---
 
 Input: [-2,1,-3,4,-1,2,1,-5,4]
