@@ -4,10 +4,7 @@ title: "Search in Rotated Sorted Array"
 author: poanchen
 date: 2018-08-15 08:30:30
 source: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-tags:
-- Array
-- Sorted
-- Binary Search
+tags: Array, Sorted, Binary Search
 technics:
 ---
 
