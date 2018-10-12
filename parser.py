@@ -11,3 +11,8 @@ for line in htmlmarkdown:
 
 
 title = htmlmarkdown[2]
+topic = htmlmarkdown[7]
+tags = htmlmarkdown[8]
+technics = htmlmarkdown[9]
+
+print(title, tags,technics)
