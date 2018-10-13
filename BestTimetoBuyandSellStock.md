@@ -4,9 +4,8 @@ title: "Best Time to Buy and Sell Stock"
 author: poanchen
 date: 2018-08-15 08:30:30
 source: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
-tags:
-- Array
-- DP
+topics: Array
+tags: DP, Greedy
 technics:
 ---
 
