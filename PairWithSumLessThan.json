@@ -1,0 +1,12 @@
+{
+    "title": "Find the number of pair with sum less than a number in an array",
+    "source": "https://www.geeksforgeeks.org/count-pairs-array-whose-sum-less-x/",
+    "topics": "Array",
+    "tags": "Subset, Pair",
+    "technics": "Two Pointers, Sorting" ,
+    "input" : "an array containing integers, number x",
+    "output": "how many pairs in that array sum up to less than x",
+    "solution": "Sort it if it's not already sorted. have l and r pointer. while l < r: if sum arr[l] + arr[r] < x it means that all pair from l, [l+1:r] are smaller than x. Then add to result (r-l) then increment l. Else (sum arr[l] + arr[r] > x) decrement r",
+    "runtime": "O(NlogN) if need to sort array else O(N)",
+    "note": "A harder version is find triplet. "
+}

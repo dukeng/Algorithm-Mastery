@@ -14,5 +14,5 @@
     "output": ,
     "solution": ,
     "runtime": ,
-    "note:" ,
+    "note": 
 }

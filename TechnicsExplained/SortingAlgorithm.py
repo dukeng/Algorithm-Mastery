@@ -1,9 +1,5 @@
 from random import randint
 
-
-
-
-
 # Quick Sort Partition
 # Partition array by a given number
 # print(quicksortpartition([5,2,1,4,6,7,3,9,8], 4))
