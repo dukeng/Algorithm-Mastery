@@ -1,0 +1,12 @@
+{
+    "title": "Find the number of triplet with sum less than a number in an array",
+    "source": "https://www.geeksforgeeks.org/count-pairs-array-whose-sum-less-x/",
+    "topics": "Array",
+    "tags": "Subset, Triplet",
+    "technics": "Two Pointers, Sorting, Three Pointers" ,
+    "input" : "an array containing integers, number x",
+    "output": "how many triplet in that array sum up to less than x",
+    "solution": "Sort it if it's not already sorted. The idea is similar to finding a pair with sum less than x but have another loop. For i in [0, len(arr) - 3], have l=i+1 and r=len(arr) -1 pointer. while l < r: if sum arr[l] + arr[r] + arr[i] < x it means that all pair from l, [l+1:r] are smaller than x. Then add to result (r-l) then increment l. Else (sum arr[l] + arr[r] + arr[i] > x) decrement r",
+    "runtime": "O(N^2)",
+    "note" : ""
+}
