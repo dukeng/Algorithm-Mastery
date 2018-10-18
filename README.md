@@ -14,7 +14,7 @@
     "output": ,
     "solution": ,
     "runtime": ,
-    "note:" ,
+    "note": ,
 }
 
 
@@ -26,7 +26,7 @@
 - Backtrack
 - BFS, DFS, Dijkstra
 - Topological sort
-- Minimum spanning tree, Kruskal
+- Minimum spanning tree, Kruskal, Cycle Detection
 - Union Find
 - Levenshtein distance
 - Tree traversal(In order, post order, preorder)
