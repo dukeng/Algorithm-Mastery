@@ -36,22 +36,31 @@ def TopologicalSort(hm_vertices):
         pointed_to = set()
         not_pointed_to = []
         for name, vertice in temp_hm_vertices.items():
-            pointed_to.add(vertice.neighbors)
+            for neighbor in vertice.neighbors: 
+                pointed_to.add(neighbor)
         for name, vertice in temp_hm_vertices.items():
             if name not in pointed_to:
                 not_pointed_to.append(name)
         return not_pointed_to
 
     sorted_list = []
+    visited = set()
     no_incoming_edge = []      
 
-    no_incoming_edge += find_no_incoming_edge(temp_hm_vertices)
+    no_incoming_edge += find_no_incoming_edge(hm_vertices)
 
     while no_incoming_edge:
         node = no_incoming_edge.pop()
-        sorted_list.append(node)
-        del node.neighbors[:]
-        
+        if node not in visited:
+            visited.add(node)
+            sorted_list.append(node)
+            del hm_vertices[node]
+        no_incoming_edge += find_no_incoming_edge(hm_vertices)
+    
+    if hm_vertices:
+        return []
+    else:
+        return sorted_list
             
 
 def Topological_sort_test():
@@ -61,14 +70,16 @@ def Topological_sort_test():
     two = Node("2")
     three = Node("3")
     four = Node("4")
-    give = Node("5")
+    five = Node("5")
     six = Node("6")
     seven = Node("7")
 
-    zero.add(["6"])
+    zero.add_neighbors(["6"])
     one.add_neighbors(['2','4','6'])
     three.add_neighbors(['0','4'])
     seven.add_neighbors(['0','1'])
+    five.add_neighbors(['1'])
+
 
     hm_vertices = dict()
     hm_vertices["0"] = zero
@@ -79,6 +90,7 @@ def Topological_sort_test():
     hm_vertices["5"] = five
     hm_vertices["6"] = six
     hm_vertices["7"] = seven
-    
     order = TopologicalSort(hm_vertices)
+    print(order)
 
+Topological_sort_test()
