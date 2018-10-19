@@ -1,4 +1,4 @@
-
+import sys
 
 # Node object
 class Node():
@@ -26,21 +26,19 @@ def BFS(root):
                 queue.append(neighbor)                
 
 # Dijkstra on a directed graph. Dijkstra have to run throughoutly. Can't tell if the distance is minimum if not run throughoutly
-def Dijkstra(hm_vertices):
+def Dijkstra(hm_vertices, start):
     import heapq
     heap = []
     distances = dict()
-    for 
-    queue = [root]
+    for nodeName, node in hm_vertices.items():
+        distances[nodeName] = sys.maxsize
+    
+    queue = [start]
     visited = set()
     result = []
     while queue:
-        node = queue.pop(0)
-        visited.add(node.val)
-        result.append(node.val)
-        for neighbor in node.neighbors:
-            if neighbor.val not in visited:
-                queue.append(neighbor)      
+        nodeName = queue.pop()
+        if
 
 def Dijkstra_test():
     
@@ -98,7 +96,6 @@ def Topological_sort_test():
     three.add_neighbors(['0','4'])
     seven.add_neighbors(['0','1'])
     five.add_neighbors(['1'])
-
 
     hm_vertices = dict()
     hm_vertices["0"] = zero
