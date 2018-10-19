@@ -25,6 +25,25 @@ def BFS(root):
             if neighbor.val not in visited:
                 queue.append(neighbor)                
 
+# Dijkstra on a directed graph. Dijkstra have to run throughoutly. Can't tell if the distance is minimum if not run throughoutly
+def Dijkstra(hm_vertices):
+    import heapq
+    heap = []
+    distances = dict()
+    for 
+    queue = [root]
+    visited = set()
+    result = []
+    while queue:
+        node = queue.pop(0)
+        visited.add(node.val)
+        result.append(node.val)
+        for neighbor in node.neighbors:
+            if neighbor.val not in visited:
+                queue.append(neighbor)      
+
+def Dijkstra_test():
+    
 
 
 ############# Topological Sort ###############

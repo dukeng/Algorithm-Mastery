@@ -1,0 +1,18 @@
+
+
+
+
+## Sample json file:
+
+{
+    "title": "Find minimum number of throws to win the snake and ladder game",
+    "source": "http://www.techiedelight.com/min-throws-required-to-win-snake-and-ladder-game/",
+    "topics": "Graph",
+    "tags": "Directed",
+    "technics": "BFS" ,
+    "input" : "A 2d board with shortcuts going back and going forward",
+    "output": "Minimum dice throws to get from the start to the end",
+    "solution": "Construct the graph with edges going back and forward. Then do a bfs from the start to the end. Stops when see the destination. Pretty sure no need to go through the whole graph",
+    "runtime": "O(N)",
+    "note": ""
+}
