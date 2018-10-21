@@ -6,7 +6,7 @@
     "technics": "bfs",
     "input" : "a directed weighted graph and source node and destination node and number of exact edges",
     "output": "The least cost path from source to destination with exactly m node",
-    "solution": "Do a bfs, but don't check for cycle. i.e, can have infinite loop, but stop traversing after m exact edge. Keep each node in the queue 3 things: [CurrentNode, CurrentEdge, CurrentCost]",
+    "solution": "Do a bfs, but don't check for cycle. i.e, can have infinite loop, but stop traversing after m exact edge. Keep each node in the queue 3 things: [CurrentNode, CurrentLevel, CurrentCost]",
     "runtime": "",
     "note": ""
 }
