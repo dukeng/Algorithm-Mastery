@@ -31,6 +31,7 @@ def BFS(root):
 # Dijkstra on a directed graph. Dijkstra have to run throughoutly. Can't tell if the distance is minimum if not run throughoutly
 # Does not work on negative weights. Use a greedy approach
 # I use a priority queue on edge while Wikipedia uses a pq on node
+# Runtime is |E| + |V|log|V| where E is the # edges and V is the # vertices
 def Dijkstra(hm_vertices, start):
     import heapq
     heap = []
