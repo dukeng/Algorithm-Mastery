@@ -1,0 +1,13 @@
+
+{
+    "title": "Flip String to separated monotone Increasing",
+    "source": "https://leetcode.com/contest/weekly-contest-107/problems/flip-string-to-monotone-increasing/" ,
+    "topics": "Array",
+    "tags": "Adhoc",
+    "technics": ,
+    "input" : "Array of 1s and 0s" ,
+    "output": "minimum swap 1 to 0 or 0 to 1 so that the array is paritioned so that all 0s come before 1s",
+    "solution": "Consider if 1s start at each position and calculate how many 0s need to be swapped to 1s in the right side and how many 1s need to be swapped to 0s in the left hand side",
+    "runtime": "O(N)",
+    "note": ""
+}
