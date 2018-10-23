@@ -11,21 +11,6 @@ class Node():
         for val in listVal:
             self.neighbors.append(val)
 
-# BFS on a directed graph
-def BFS(root):
-    if not root:
-        return []
-    queue = [root]
-    visited = set()
-    result = []
-    while queue:
-        node = queue.pop(0)
-        visited.add(node.val)
-        result.append(node.val)
-        for neighbor in node.neighbors:
-            if neighbor.val not in visited:
-                queue.append(neighbor)
-    return result               
 
 ############# Dijkstra ###############
 # Dijkstra on a directed graph. Dijkstra have to run throughoutly. Can't tell if the distance is minimum if not run throughoutly
