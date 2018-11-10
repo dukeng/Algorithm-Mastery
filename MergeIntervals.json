@@ -1,0 +1,11 @@
+{ "title": "Merge Intervals", 
+ "source": "https://leetcode.com/problems/merge-intervals/", 
+ "topics": "Array" , 
+ "tags": "" , 
+ "technics": "Greedy, Sort" , 
+ "input" : "An array containing [start,end] , 
+ "output": "An array containing [start,end] where all the startings and endings don't overlap" , 
+ "solution": "Sort, greedily merge", 
+ "runtime": "O(NlogN) , 
+ "note": "" }
+
