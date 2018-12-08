@@ -33,3 +33,6 @@
 - Binary Search Tree
 - Trie
 - Binary indexed tree, splay tree
+
+## Python Runtime
+https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt
