@@ -1,0 +1,13 @@
+
+{
+    "title": "Online Election",
+    "source": "https://leetcode.com/problems/online-election/description/",
+    "topics": "Array",
+    "tags": "",
+    "technics": "BinarySearch" ,
+    "input" : "A time interval with a vote [time,vote]. Each time there will be a person with the most popular vote. Given a series of time queries, return the most popular voted person at that timestamp.",
+    "output": "The most popular person at that timestamp",
+    "solution": "Build a sorted array of time and store with each element the most voted person at that time. Then do a binary search per timestamp to get the most voted person.",
+    "runtime": "O(N) to build the array, O(logN) to query each timestamp",
+    "note": ""
+}

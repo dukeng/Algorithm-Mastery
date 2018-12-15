@@ -1,0 +1,12 @@
+{
+    "title": "Daily Temperature",
+    "source": "https://leetcode.com/problems/daily-temperatures/",
+    "topics": "Array",
+    "tags": "",
+    "technics": "BinarySearch" ,
+    "input" : "Given a list of temperatures per day, return a list, each element has the closest day to the right of the current index where it is warmer. 0 if there is no such day.",
+    "output": "An array containing a list of days where it takse to get warmer",
+    "solution": "Keep a list of sorted increasing temperatures so far and their indexes. When a new temperature comes in, binary search it in the sorted list. Then add that temperature in. Everything to the left of that temperature should be removed because that temperature is the most recent and higher than any temperature on the left",
+    "runtime": "O(NlogN) to bin search ",
+    "note": ""
+}
