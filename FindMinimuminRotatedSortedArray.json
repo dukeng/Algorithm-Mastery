@@ -1,0 +1,11 @@
+{ "title": "Find Minimum in Rotated Sorted Array" , 
+  "source": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/" ,
+  "topics": "Array" , 
+  "tags": "Sorted", 
+  "technics": "BinarySearch" , 
+  "input" : "[3,4,5,1,2]", 
+  "output": "1 (smallest element in the array)" , 
+  "solution": "Start low at far left and high at far right. To detect bottom, simply check if arr[mid] > arr[mid + 1] is true. Then return arr[mid + 1]. Then check if arr[low] < arr[mid] is true then the minimum could be on the right side. Else the minimum could be on the left side. If no bottom of mountain is found, then the answer should be arr[0]", 
+  "runtime": "O(logn), O(1)" , 
+  "note": ""
+}

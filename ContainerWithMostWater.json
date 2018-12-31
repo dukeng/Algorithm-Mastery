@@ -1,0 +1,12 @@
+{
+    "title": "Container with most water",
+    "source": "https://leetcode.com/problems/container-with-most-water/description/",
+    "topics": "Array",
+    "tags": "",
+    "technics": "Greedy, TwoPointers" ,
+    "input" : "[1,8,6,2,5,4,8,3,7]",
+    "output": "49",
+    "solution": "maintain 2 pointers left(L) and right(R). While L < R: -Update the max area as you go. -Move the pointer with lower value (goes right, R goes L) until there is a value that is higher than the current lower.",
+    "runtime": "O(n), O(1)",
+    "note": ""
+}

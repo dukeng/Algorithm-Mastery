@@ -17,6 +17,8 @@
     "note": ,
 }
 
+## Possible topics: 
+
 
 ## Things to review
 - Array, String: substring search(KMP)

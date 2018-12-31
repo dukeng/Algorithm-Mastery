@@ -1,0 +1,12 @@
+{
+    "title": "Best Time to Buy and Sell Stock",
+    "source": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/",
+    "topics": "Array" ,
+    "tags": "" ,
+    "technics": "DP,Greedy", 
+    "input" : "arr = [7,1,5,3,6,4]",
+    "output": "5 because buy on day 2 and sell on day 5",
+    "solution": "Loop through everything and maintain a min_profit and repeatedly update max_profit",
+    "runtime": "O(n), O(1)",
+    "note:" : "" 
+}

@@ -1,0 +1,11 @@
+{ "title": "Find the element in array that appears more than ⌊n/2⌋ times", 
+  "source": "https://leetcode.com/problems/majority-element/description/" ,
+  "topics": "Array" , 
+  "tags": "Sorted", 
+  "technics": "Boyer-Moore Voting Algorithm, HashMap, Sorting, Randomization" , 
+  "input" : "[2,2,1,1,1,2,2]", 
+  "output": "2" , 
+  "solution": "The solution exposes the fact that if there exists a majority element, its frequencies should be more than the rest of the array. Loop through the whole array, set the first element in the array as candidate. If you see a similar element, increment the count; otherwise you subtract the count until the count reaches zero, you set the next element as majority candidate. At the end, the candidate should be the answer.",
+  "runtime": "O(n), O(1)" , 
+  "note": ""
+}

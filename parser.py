@@ -16,9 +16,9 @@ class Problem():
 
 
 # Take a fileName and parse json
-def parseFile(fileName):
+def parseFile(fileName='CheckIfSubArrayWith0Exists.json'):
     data = None
-    with open('CheckIfSubArrayWith0Exists.md') as data_file:    
+    with open(fileName) as data_file:    
         data = json.load(data_file)
     # Convert to string
     for key in list(data.keys()):
@@ -32,6 +32,7 @@ def parseFile(fileName):
     problem.output = data["output"]
     problem.solution = data["solution"]
     problem.runtime = data["runtime"]
+    problem.fileName = fileName
     
     return problem
 
@@ -40,10 +41,12 @@ def loadAll():
     allProblems = []
     for _, _, fileList in os.walk("."):
         for fname in fileList:
-            if fname.endswith(".md"):
-                print('%s' % fname)
+            if fname.endswith(".json"):
+                jsonFile = parseFile(fname)
+                print (jsonFile.topics, jsonFile.tags, jsonFile.fileName)
 
 
 loadAll()
+
 
 
