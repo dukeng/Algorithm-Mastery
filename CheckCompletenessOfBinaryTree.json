@@ -1,0 +1,12 @@
+{
+    "title": "Check Completeness of Binary Tree",
+    "source": "https://leetcode.com/problems/check-completeness-of-a-binary-tree/submissions/",
+    "topics": "BinaryTree, Tree",
+    "tags": "Complete",
+    "technics": "Queue, Dictionary",
+    "input" : "A binary tree",
+    "output": "Return True if binary tree is complete. False otherwise",
+    "solution": "Use a queue and a dictionary to bfs traverse tree (visit left then right) then keep track of the position that the next node has to be at: left child node = current_position * 2 - 1, right child node = current_position * 2. After that iterate through hashmap to check if it is complete. Check code on leetcode",
+    "runtime": "O(N), O(N)",
+    "note": ""
+}
