@@ -1,8 +1,8 @@
 {
     "title": "Check Completeness of Binary Tree",
     "source": "https://leetcode.com/problems/check-completeness-of-a-binary-tree/submissions/",
-    "topics": "BinaryTree, Tree",
-    "tags": "Complete",
+    "topics": "Tree",
+    "tags": "Complete, BinaryTree",
     "technics": "Queue, Dictionary",
     "input" : "A binary tree",
     "output": "Return True if binary tree is complete. False otherwise",
